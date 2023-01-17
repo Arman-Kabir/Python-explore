@@ -10,3 +10,7 @@ def greet(fn, ln):
 
 greet("Mosh", "Hamedani")
 greet("John")
+
+# In programming, we have 2 types of functions...1- Perform a task... 2- Calculate and return a value.
+# In python - All functions by default return a none value.None is an object that represents absence of a value.
+
