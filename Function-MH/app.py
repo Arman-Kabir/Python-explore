@@ -15,14 +15,18 @@
 #     return number+by
 # print(increment(2,by=1)) #keyword argument
 
-def multiply(*numbers):  # Collection of arguments
-    # return x*y
-    # print(numbers)
-    total = 1
-    for number in numbers:
-        total *= number
-        # print(number)
-    return total
+# def multiply(*numbers):  # Collection of arguments
+#     # return x*y
+#     # print(numbers)
+#     total = 1
+#     for number in numbers:
+#         total *= number
+#         # print(number)
+#     return total
+# print(multiply(2, 3, 4, 5))
 
+# def save_user(**user): # if we add **-->then we can pass multiple key-value pairs or multiple keyword
+#     print(user["age"])         #  arguments Python will automatically package them into a dictionary
+#                         # user object here is a dictionary
 
-print(multiply(2, 3, 4, 5))
+# save_user(id=1, name="John", age=22)
