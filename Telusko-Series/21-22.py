@@ -23,8 +23,7 @@
 #     i = i+1
 # print("Bye")
 
-
-
+#continue
 # for i in range(1, 101):
 #     if (i % 3 == 0 and i % 5 == 0):
 #         continue
@@ -32,5 +31,10 @@
 
 # print("Bye")
 
-
-
+# pass
+# for i in range(1, 101):
+#     if (i % 2 != 0):
+#         pass
+#     else:
+#         print(i)
+# print("Bye")
