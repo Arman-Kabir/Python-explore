@@ -23,7 +23,7 @@
 #     i = i+1
 # print("Bye")
 
-#continue
+# continue
 # for i in range(1, 101):
 #     if (i % 3 == 0 and i % 5 == 0):
 #         continue
@@ -38,3 +38,19 @@
 #     else:
 #         print(i)
 # print("Bye")
+
+
+# 22.1 Break continue pass part-2
+# continue skips the equation
+# break breaks the loop
+# when u don't know what to do in a condition, just use pass by not breaking the condition 
+
+# for i in range(5):
+#     if i == 3:
+#         break
+#     print("hello", i)
+
+def fun():
+    print("DO somethign")
+
+
