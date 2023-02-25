@@ -50,7 +50,6 @@
 #         break
 #     print("hello", i)
 
-def fun():
-    print("DO somethign")
+
 
 
