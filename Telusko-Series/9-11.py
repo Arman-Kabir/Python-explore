@@ -21,7 +21,14 @@
 
 # 10 Data Types
 # None - if variable is not assigned a value
-# Numeric List Tuple Set String Range Dictionary 
+# Numeric - int float complex bool
+num = 2.5
+num1 = 5
+num2 = 6+9j
+print(type(num))
+print(type(num1))
+print(type(num2))
+#  List Tuple Set String Range Dictionary 
 #
 #
 #
