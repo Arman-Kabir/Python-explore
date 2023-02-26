@@ -17,11 +17,15 @@
 
 # 33 //Functions Arguments
 # *Pass By value     *Pass by reference
+# Integer , Strings - they are immutable
 def update(x):
+    print(id(x))
     x = 8
+    print(id(x))
     print(x)
 
 
 a = 10
+print(id(a))
 update(a)
-print(a)
+print('a', a)
