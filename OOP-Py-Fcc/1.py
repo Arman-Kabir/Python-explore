@@ -23,22 +23,22 @@
 # It's going to be divided into 2 parts. 1st one of the equation of the class, 2nd one  will be the part i instantiate some object of this class
 # Method is function inside classes. When we create function inside classes - then it's called method.
 
-class Item:
-    def calculate_total_price(self,x,y):
-        return x*y
-
-
-item1 = Item()
-item1.name = "Phone"
-item1.price = 100
-item1.quantity = 5
-print(item1.calculate_total_price(item1.price,item1.quantity))
-
-item2 = Item()
-item2.name = "Laptop"
-item2.price = 1000
-item2.quantity = 3
-print(item2.calculate_total_price(item2.price,item2.quantity))
+# class Item:
+#     def calculate_total_price(self,x,y):
+#         return x*y
+#
+#
+# item1 = Item()
+# item1.name = "Phone"
+# item1.price = 100
+# item1.quantity = 5
+# print(item1.calculate_total_price(item1.price,item1.quantity))
+#
+# item2 = Item()
+# item2.name = "Laptop"
+# item2.price = 1000
+# item2.quantity = 3
+# print(item2.calculate_total_price(item2.price,item2.quantity))
 
 
 # print(type(item1))
@@ -48,6 +48,33 @@ print(item2.calculate_total_price(item2.price,item2.quantity))
 
 # random_str = "aaa"
 # print(random_str.upper())
+
+
+# 13m
+
+class Item:
+    def __init__(self,name,price,quantity):
+        print(f"I am created:{name}")
+        self.name = name
+        self.price = price
+        self.quantity = quantity
+
+    def calculate_total_price(self,x,y):
+        return x*y
+
+
+item1 = Item("Phone",100,5)
+# print(item1.calculate_total_price(item1.price,item1.quantity))
+
+item2 = Item("laptop",1000,3)
+# print(item2.calculate_total_price(item2.price,item2.quantity))
+
+print(item1.name)
+print(item2.name)
+print(item1.price)
+print(item2.price)
+print(item1.quantity)
+print(item2.quantity)
 
 
 
